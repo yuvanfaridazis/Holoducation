@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Holoducation</string>
+
+    <dimen name="default_margin">25dp</dimen>
+    <dimen name="default_half_margin">12dp</dimen>
+    <dimen name="default_quarter_margin">6dp</dimen>
+    <string name="title_activity_maps">Map</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+
+    <string name="about">Holoducation merupakan sebuah aplikasi media  media pembelajaran berbasis digital berupa video interaktif yang ditampilkan dengan hologram untuk membantu pendidik dalam meningkatkan kualitas pendidikan dan meningkatkan pemahaman peserta didik terhadap materi yang diberikan. Dalam penerapannya, holoducation bertujuan untuk membantu pemerintah dalam mengembangkan potensi SDM Indonesia sejak usia dini.</string>
+    <string name="instruction">1. Pilih gallery untuk tema bahan ajar yang di inginkan di laman menu utama
+\n 2. Selanjutnya, Pilih opsi Budaya/ sains sesuai bahan ajar yang diinginkan
+\n 3. Jika bahan ajar sudah di pilih, selanjutnya melakukan proyeksi hologram dengan proyektor hologram
+\n 4. Play video hologram yang di pilih
+\n 5. Letakkan proyektor hologram di titik tengah objek video
+\n 6. Tekan tombol back jika ingin kembali ke menu sebelumnya</string>
+</resources>

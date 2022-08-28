@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3AC7BE</color>
+    <color name="colorSecondary">#F49904</color>
+    <color name="colorPrimaryDark">#2B958E</color>
+    <color name="colorAccent">#3AC7BE</color>
+
+    <color name="greenColor">#5CAF2A</color>
+    <color name="yellowColor">#E3AE26</color>
+    <color name="blueColor">#2F52CC</color>
+
+    <color name="greenLightColor">#CDFFC8</color>
+    <color name="yellowLightColor">#FFF7E2</color>
+    <color name="blueLightColor">#E2E8FF</color>
+
+    <color name="whiteColor">#FFFFFF</color>
+    <color name="blackColor">#000000</color>
+    <color name="greyColor">#ECECEC</color>
+    <color name="greyDarkColor">#D6D6D6</color>
+
+    <color name="blackTransparentColor">#65000000</color>
+
+    <color name="pinkColorLight">#FDF3F3</color>
+    <color name="pinkColorMedium">#FFEFEF</color>
+    <color name="pinkColorDark">#EDC6C6</color>
+
+    <color name="textPrimaryColor">#222222</color>
+    <color name="textSecondaryColor">#5A5A5A</color>
+
+    <color name="lineColor">#808080</color>
+
+    <color name="orange_text_before_payment">#EBA00D</color>
+    <color name="bcg_orange_text_before_payment">#4DEBA00D</color>
+    <color name="blue_text_on_process">#1D65F1</color>
+    <color name="bcg_blue_text_on_process">#DDEDFC</color>
+    <color name="green_text_selesai">#028E08</color>
+    <color name="bcg_green_text_selesai">#728FFF67</color>
+</resources>

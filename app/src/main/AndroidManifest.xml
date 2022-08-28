@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yuvandev.holoducation">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Holoducation">
+        <activity android:name=".InstructionActivity"></activity>
+        <activity android:name=".AnimationActivity" />
+        <activity android:name=".budaya.AlatMusikActivity" />
+        <activity android:name=".budaya.RumahAdatActivity" />
+        <activity android:name=".budaya.TarianActivity" />
+        <activity android:name=".sains.teknologi.AlatKomunikasiActivity" />
+        <activity android:name=".sains.teknologi.TrasnportasiActivity" />
+        <activity android:name=".sains.alam.GejalaAlamActivity" />
+        <activity android:name=".sains.alam.BendaLangitActivity" />
+        <activity android:name=".sains.binatang.LiarActivity" />
+        <activity android:name=".sains.binatang.PeliharaanActivity" />
+        <activity android:name=".sains.binatang.BertelurActivity" />
+        <activity android:name=".sains.binatang.BeranakActivity" />
+        <activity android:name=".sains.teknologi.TeknologiActivity" />
+        <activity android:name=".sains.alam.AlamActivity" />
+        <activity android:name=".sains.binatang.BinatangActivity" />
+        <activity android:name=".budaya.BudayaActivity" />
+        <activity android:name=".sains.SainsActivity" />
+        <activity android:name=".GalleryActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".budaya.AlatMusikActivity">
+
+    <ImageView
+        android:id="@+id/img_musik"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_musik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bcg_3"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/bcg_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingHorizontal="20dp"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.05">
+
+        <ImageView
+            android:id="@+id/btn_gamelan"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:src="@drawable/btn_gamelan"
+            />
+
+        <ImageView
+            android:id="@+id/btn_angklung"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:src="@drawable/btn_angklung"
+            />
+
+        <ImageView
+            android:id="@+id/btn_kecapi"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:src="@drawable/btn_kecapi"
+            />
+
+        <ImageView
+            android:id="@+id/btn_sasando"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="end"
+            android:src="@drawable/btn_sasando"
+            />
+
+        <ImageView
+            android:id="@+id/btn_tifa"
+            android:layout_width="180dp"
+            android:layout_height="55dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="start"
+            android:src="@drawable/btn_tifa"
+            />
+
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/btn_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout"
+        app:layout_constraintVertical_bias="0.479" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
